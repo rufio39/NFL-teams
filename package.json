@@ -7,6 +7,9 @@
     "watch": "SET DEBUG=nfl-teams:* & nodemon ./bin/www"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "bootstrap": "^4.5.2",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
     "debug": "~2.6.9",
@@ -14,7 +17,10 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "mongodb": "^3.6.2",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "react-bootstrap": "^1.3.0",
+    "react-router-dom": "^5.2.0"
   }
 }

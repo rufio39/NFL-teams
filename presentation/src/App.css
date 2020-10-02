@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+ background-image: url(https://rb.gy/pgotke);
+ position: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ top: 0;
+ left: 0;
+ min-width: 100%;
+ min-height: 100%;
 }
 
 .App-logo {
@@ -35,4 +43,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin: 2vw;
+  margin-right: 2vw;
+}
+.iCard {
+  background-color: lightgreen;
+}
+.createTeam {
+  border: solid;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-color: green;
+  color:black;
+  font-size: large;
+  background-color: white;
+}
+.update {
+ padding: 1vw;
 }
